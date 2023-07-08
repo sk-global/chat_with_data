@@ -57,7 +57,6 @@ if uploaded_file is not None:
                                              prompt_helper=prompt_helper)
 
 
-
 if vector_index != None:
   st.text_input("Ask something on uploaded document and press the below button: ", key='prompt')
   st.button("find_answer", on_click=send_click)
